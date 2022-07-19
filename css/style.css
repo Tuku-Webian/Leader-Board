@@ -1,0 +1,199 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common Styles */
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Part */
+header {
+    background-color: #562EFF;
+    padding: 0.7vw 0;
+}
+
+.nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0 auto;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo img {
+    height: 60%;
+    margin-right: 5%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 2vw;
+}
+
+.menu ul li img {
+    border-radius: 50%;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.menu ul li a:hover {
+    color: coral;
+}
+
+/* First Section Start */
+.section {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto 2%;
+    border-radius: 1%;
+}
+
+.players-container {
+    padding: 3%;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 2vw;
+    text-shadow: 0.15vw 0.15vw 0.4vw rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+}
+
+/* Top Players Style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2em;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+    margin-right: 1em;
+}
+
+.player-name {
+    font-size: 1.5vw;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 3% 0 0.8% 0;
+}
+
+/* Blogs Start */
+
+.blogs-conatainer {
+    padding: 0 3% 4%;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2vw;
+}
+
+.blog {
+    display: flex;
+    width: 100%;
+}
+
+.blog img {
+    width: 50%;
+    margin-right: 2vw;
+    border-radius: 1vw;
+}
+
+.by {
+    color: rgb(156, 156, 156);
+}
+
+.author {
+    color: #562EFF;
+}
+
+/* Latest Courses Start */
+.latest-courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2em;
+    padding: 3%;
+}
+
+.course {
+    width: 90%;
+    padding: 5%;
+    border-radius: 1vw;
+    box-shadow: 0.15vw 0.2vw 1vw rgba(107, 107, 107, 0.25);
+}
+
+.course img {
+    width: 100%;
+    margin-right: 2vw;
+    border-radius: 1vw;
+}
+
+.title {
+    color: #562EFF;
+    font-size: 2vw;
+    text-shadow: 0.15vw 0.15vw 0.4vw rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 3% 3% 0;
+
+}
+
+.course h3 {
+    margin: 0;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filled {
+    color: goldenrod;
+}
+
+.empty {
+    color: lightgray;
+}
+
+.clock {
+    background-color: rgb(254, 199, 254);
+    padding: 0.1vw .5vw;
+    border-radius: 1.5vw;
+    color: rgb(138, 14, 138);
+}
