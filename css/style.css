@@ -105,7 +105,7 @@ header {
 }
 
 .player-name {
-    font-size: 1.5vw;
+    font-size: 18px;
 }
 
 hr {
@@ -171,7 +171,6 @@ hr {
     text-shadow: 0.15vw 0.15vw 0.4vw rgba(0, 0, 0, 0.25);
     margin: 0;
     padding: 3% 3% 0;
-
 }
 
 .course h3 {
@@ -196,4 +195,51 @@ hr {
     padding: 0.1vw .5vw;
     border-radius: 1.5vw;
     color: rgb(138, 14, 138);
+}
+
+/* ----------
+Media Quaries 
+------------*/
+
+/* Mobile Device */
+
+@media only screen and (max-width: 688px) {
+    .logo h1 {
+        font-size: 17px;
+        margin: 0;
+    }
+    .logo img {
+        width: 40%;
+        height: 30%;
+        margin-right: 2%;
+    }
+    .menu ul li a {
+        font-size: 12px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.7em;
+    }
+    .player-name{
+        font-size: 15px;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2vw;
+    }
+    .latest-courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2em;
+        padding: 3%;
+
+    }
+    .section-title, .title {
+        color: #562EFF;
+        font-size: 17px;
+        text-shadow: 0.15vw 0.15vw 0.4vw rgba(0, 0, 0, 0.25);
+        margin-top: 0;
+    }
 }
